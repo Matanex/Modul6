@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#343b30"
+    >
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Mahasiswa" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextId" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="Saya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="TI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextJurusan" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="saya@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmail" />
+
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:background="@drawable/custombutton3"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Mahasiswa"
+        android:id="@+id/buttonUpdate" />
+
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:background="@drawable/custombutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Mahasiswa"
+        android:id="@+id/buttonDelete" />
+
+</LinearLayout>

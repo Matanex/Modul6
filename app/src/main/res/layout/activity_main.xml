@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#343b30"
+    >
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="Kamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="IT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextJurusan" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:textColorHint="#77876d"
+        android:textColor="#ffff"
+        android:hint="kamu@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmail" />
+
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:background="@drawable/custombutton1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Mahasiswa"
+        android:id="@+id/buttonAdd" />
+
+    <Button
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:background="@drawable/custombutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Mahasiswa"
+        android:id="@+id/buttonView" />
+
+</LinearLayout>
